@@ -1,0 +1,418 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - text: Elements
+        - img [ref=e22]
+      - generic [ref=e24]:
+        - generic [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]:
+            - img [ref=e29]
+            - text: Forms
+          - img [ref=e35]
+        - list [ref=e38]:
+          - listitem [ref=e39] [cursor=pointer]:
+            - link "Practice Form" [ref=e40]:
+              - /url: /automation-practice-form
+              - img [ref=e41]
+              - text: Practice Form
+      - generic [ref=e45] [cursor=pointer]:
+        - generic [ref=e46]:
+          - img [ref=e48]
+          - text: Alerts, Frame & Windows
+        - img [ref=e53]
+      - generic [ref=e57] [cursor=pointer]:
+        - generic [ref=e58]:
+          - img [ref=e60]
+          - text: Widgets
+        - img [ref=e66]
+      - generic [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]:
+          - img [ref=e73]
+          - text: Interactions
+        - img [ref=e78]
+      - generic [ref=e82] [cursor=pointer]:
+        - generic [ref=e83]:
+          - img [ref=e85]
+          - text: Book Store Application
+        - img [ref=e90]
+    - generic [ref=e93]:
+      - heading "Practice Form" [level=1] [ref=e94]
+      - heading "Student Registration Form" [level=5] [ref=e95]
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e99]: Name
+          - textbox "First Name" [ref=e101]: noor
+          - textbox "Last Name" [ref=e103]: qa
+        - generic [ref=e104]:
+          - generic [ref=e106]: Email
+          - textbox "name@example.com" [ref=e108]: n@gmail.com
+        - generic [ref=e109]:
+          - generic [ref=e110]: Gender
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - radio "Male" [ref=e113]
+              - generic [ref=e114]: Male
+            - generic [ref=e115]:
+              - radio "Female" [checked] [ref=e116]
+              - generic [ref=e117]: Female
+            - generic [ref=e118]:
+              - radio "Other" [ref=e119]
+              - generic [ref=e120]: Other
+        - generic [ref=e121]:
+          - generic [ref=e123]: Mobile(10 Digits)
+          - textbox "Mobile Number" [ref=e125]: "3254563246"
+        - generic [ref=e126]:
+          - generic [ref=e128]: Date of Birth
+          - generic [ref=e129]:
+            - textbox [active] [ref=e132]: 19 May 2026
+            - generic [ref=e198]:
+              - dialog "Choose Date" [ref=e201]:
+                - alert [ref=e202]: May 2002
+                - button "Previous Month" [ref=e203] [cursor=pointer]:
+                  - generic: Previous Month
+                - button "Next Month" [ref=e204] [cursor=pointer]:
+                  - generic: Next Month
+                - generic [ref=e205]:
+                  - generic [ref=e206]:
+                    - heading "May 2002" [level=2] [ref=e287]
+                    - generic [ref=e208]:
+                      - combobox [ref=e210]:
+                        - option "January"
+                        - option "February"
+                        - option "March"
+                        - option "April"
+                        - option "May" [selected]
+                        - option "June"
+                        - option "July"
+                        - option "August"
+                        - option "September"
+                        - option "October"
+                        - option "November"
+                        - option "December"
+                      - combobox [ref=e212]:
+                        - option "1900"
+                        - option "1901"
+                        - option "1902"
+                        - option "1903"
+                        - option "1904"
+                        - option "1905"
+                        - option "1906"
+                        - option "1907"
+                        - option "1908"
+                        - option "1909"
+                        - option "1910"
+                        - option "1911"
+                        - option "1912"
+                        - option "1913"
+                        - option "1914"
+                        - option "1915"
+                        - option "1916"
+                        - option "1917"
+                        - option "1918"
+                        - option "1919"
+                        - option "1920"
+                        - option "1921"
+                        - option "1922"
+                        - option "1923"
+                        - option "1924"
+                        - option "1925"
+                        - option "1926"
+                        - option "1927"
+                        - option "1928"
+                        - option "1929"
+                        - option "1930"
+                        - option "1931"
+                        - option "1932"
+                        - option "1933"
+                        - option "1934"
+                        - option "1935"
+                        - option "1936"
+                        - option "1937"
+                        - option "1938"
+                        - option "1939"
+                        - option "1940"
+                        - option "1941"
+                        - option "1942"
+                        - option "1943"
+                        - option "1944"
+                        - option "1945"
+                        - option "1946"
+                        - option "1947"
+                        - option "1948"
+                        - option "1949"
+                        - option "1950"
+                        - option "1951"
+                        - option "1952"
+                        - option "1953"
+                        - option "1954"
+                        - option "1955"
+                        - option "1956"
+                        - option "1957"
+                        - option "1958"
+                        - option "1959"
+                        - option "1960"
+                        - option "1961"
+                        - option "1962"
+                        - option "1963"
+                        - option "1964"
+                        - option "1965"
+                        - option "1966"
+                        - option "1967"
+                        - option "1968"
+                        - option "1969"
+                        - option "1970"
+                        - option "1971"
+                        - option "1972"
+                        - option "1973"
+                        - option "1974"
+                        - option "1975"
+                        - option "1976"
+                        - option "1977"
+                        - option "1978"
+                        - option "1979"
+                        - option "1980"
+                        - option "1981"
+                        - option "1982"
+                        - option "1983"
+                        - option "1984"
+                        - option "1985"
+                        - option "1986"
+                        - option "1987"
+                        - option "1988"
+                        - option "1989"
+                        - option "1990"
+                        - option "1991"
+                        - option "1992"
+                        - option "1993"
+                        - option "1994"
+                        - option "1995"
+                        - option "1996"
+                        - option "1997"
+                        - option "1998"
+                        - option "1999"
+                        - option "2000"
+                        - option "2001"
+                        - option "2002" [selected]
+                        - option "2003"
+                        - option "2004"
+                        - option "2005"
+                        - option "2006"
+                        - option "2007"
+                        - option "2008"
+                        - option "2009"
+                        - option "2010"
+                        - option "2011"
+                        - option "2012"
+                        - option "2013"
+                        - option "2014"
+                        - option "2015"
+                        - option "2016"
+                        - option "2017"
+                        - option "2018"
+                        - option "2019"
+                        - option "2020"
+                        - option "2021"
+                        - option "2022"
+                        - option "2023"
+                        - option "2024"
+                        - option "2025"
+                        - option "2026"
+                        - option "2027"
+                        - option "2028"
+                        - option "2029"
+                        - option "2030"
+                        - option "2031"
+                        - option "2032"
+                        - option "2033"
+                        - option "2034"
+                        - option "2035"
+                        - option "2036"
+                        - option "2037"
+                        - option "2038"
+                        - option "2039"
+                        - option "2040"
+                        - option "2041"
+                        - option "2042"
+                        - option "2043"
+                        - option "2044"
+                        - option "2045"
+                        - option "2046"
+                        - option "2047"
+                        - option "2048"
+                        - option "2049"
+                        - option "2050"
+                        - option "2051"
+                        - option "2052"
+                        - option "2053"
+                        - option "2054"
+                        - option "2055"
+                        - option "2056"
+                        - option "2057"
+                        - option "2058"
+                        - option "2059"
+                        - option "2060"
+                        - option "2061"
+                        - option "2062"
+                        - option "2063"
+                        - option "2064"
+                        - option "2065"
+                        - option "2066"
+                        - option "2067"
+                        - option "2068"
+                        - option "2069"
+                        - option "2070"
+                        - option "2071"
+                        - option "2072"
+                        - option "2073"
+                        - option "2074"
+                        - option "2075"
+                        - option "2076"
+                        - option "2077"
+                        - option "2078"
+                        - option "2079"
+                        - option "2080"
+                        - option "2081"
+                        - option "2082"
+                        - option "2083"
+                        - option "2084"
+                        - option "2085"
+                        - option "2086"
+                        - option "2087"
+                        - option "2088"
+                        - option "2089"
+                        - option "2090"
+                        - option "2091"
+                        - option "2092"
+                        - option "2093"
+                        - option "2094"
+                        - option "2095"
+                        - option "2096"
+                        - option "2097"
+                        - option "2098"
+                        - option "2099"
+                        - option "2100"
+                  - table [ref=e213]:
+                    - rowgroup [ref=e214]:
+                      - row "Sunday Monday Tuesday Wednesday Thursday Friday Saturday" [ref=e215]:
+                        - columnheader "Sunday" [ref=e216]:
+                          - generic [ref=e217]: Sunday
+                          - text: Su
+                        - columnheader "Monday" [ref=e218]:
+                          - generic [ref=e219]: Monday
+                          - text: Mo
+                        - columnheader "Tuesday" [ref=e220]:
+                          - generic [ref=e221]: Tuesday
+                          - text: Tu
+                        - columnheader "Wednesday" [ref=e222]:
+                          - generic [ref=e223]: Wednesday
+                          - text: We
+                        - columnheader "Thursday" [ref=e224]:
+                          - generic [ref=e225]: Thursday
+                          - text: Th
+                        - columnheader "Friday" [ref=e226]:
+                          - generic [ref=e227]: Friday
+                          - text: Fr
+                        - columnheader "Saturday" [ref=e228]:
+                          - generic [ref=e229]: Saturday
+                          - text: Sa
+                    - rowgroup "Month May, 2002" [ref=e288]:
+                      - row "Choose Sunday, April 28th, 2002 Choose Monday, April 29th, 2002 Choose Tuesday, April 30th, 2002 Choose Wednesday, May 1st, 2002 Choose Thursday, May 2nd, 2002 Choose Friday, May 3rd, 2002 Choose Saturday, May 4th, 2002" [ref=e289]:
+                        - gridcell "Choose Sunday, April 28th, 2002" [ref=e290] [cursor=pointer]: "28"
+                        - gridcell "Choose Monday, April 29th, 2002" [ref=e291] [cursor=pointer]: "29"
+                        - gridcell "Choose Tuesday, April 30th, 2002" [ref=e292] [cursor=pointer]: "30"
+                        - gridcell "Choose Wednesday, May 1st, 2002" [ref=e293] [cursor=pointer]: "1"
+                        - gridcell "Choose Thursday, May 2nd, 2002" [ref=e294] [cursor=pointer]: "2"
+                        - gridcell "Choose Friday, May 3rd, 2002" [ref=e295] [cursor=pointer]: "3"
+                        - gridcell "Choose Saturday, May 4th, 2002" [ref=e296] [cursor=pointer]: "4"
+                      - row "Choose Sunday, May 5th, 2002 Choose Monday, May 6th, 2002 Choose Tuesday, May 7th, 2002 Choose Wednesday, May 8th, 2002 Choose Thursday, May 9th, 2002 Choose Friday, May 10th, 2002 Choose Saturday, May 11th, 2002" [ref=e297]:
+                        - gridcell "Choose Sunday, May 5th, 2002" [ref=e298] [cursor=pointer]: "5"
+                        - gridcell "Choose Monday, May 6th, 2002" [ref=e299] [cursor=pointer]: "6"
+                        - gridcell "Choose Tuesday, May 7th, 2002" [ref=e300] [cursor=pointer]: "7"
+                        - gridcell "Choose Wednesday, May 8th, 2002" [ref=e301] [cursor=pointer]: "8"
+                        - gridcell "Choose Thursday, May 9th, 2002" [ref=e302] [cursor=pointer]: "9"
+                        - gridcell "Choose Friday, May 10th, 2002" [ref=e303] [cursor=pointer]: "10"
+                        - gridcell "Choose Saturday, May 11th, 2002" [ref=e304] [cursor=pointer]: "11"
+                      - row "Choose Sunday, May 12th, 2002 Choose Monday, May 13th, 2002 Choose Tuesday, May 14th, 2002 Choose Wednesday, May 15th, 2002 Choose Thursday, May 16th, 2002 Choose Friday, May 17th, 2002 Choose Saturday, May 18th, 2002" [ref=e305]:
+                        - gridcell "Choose Sunday, May 12th, 2002" [ref=e306] [cursor=pointer]: "12"
+                        - gridcell "Choose Monday, May 13th, 2002" [ref=e307] [cursor=pointer]: "13"
+                        - gridcell "Choose Tuesday, May 14th, 2002" [ref=e308] [cursor=pointer]: "14"
+                        - gridcell "Choose Wednesday, May 15th, 2002" [ref=e309] [cursor=pointer]: "15"
+                        - gridcell "Choose Thursday, May 16th, 2002" [ref=e310] [cursor=pointer]: "16"
+                        - gridcell "Choose Friday, May 17th, 2002" [ref=e311] [cursor=pointer]: "17"
+                        - gridcell "Choose Saturday, May 18th, 2002" [ref=e312] [cursor=pointer]: "18"
+                      - row "Choose Sunday, May 19th, 2002 Choose Monday, May 20th, 2002 Choose Tuesday, May 21st, 2002 Choose Wednesday, May 22nd, 2002 Choose Thursday, May 23rd, 2002 Choose Friday, May 24th, 2002 Choose Saturday, May 25th, 2002" [ref=e313]:
+                        - gridcell "Choose Sunday, May 19th, 2002" [ref=e314] [cursor=pointer]: "19"
+                        - gridcell "Choose Monday, May 20th, 2002" [ref=e315] [cursor=pointer]: "20"
+                        - gridcell "Choose Tuesday, May 21st, 2002" [ref=e316] [cursor=pointer]: "21"
+                        - gridcell "Choose Wednesday, May 22nd, 2002" [ref=e317] [cursor=pointer]: "22"
+                        - gridcell "Choose Thursday, May 23rd, 2002" [ref=e318] [cursor=pointer]: "23"
+                        - gridcell "Choose Friday, May 24th, 2002" [ref=e319] [cursor=pointer]: "24"
+                        - gridcell "Choose Saturday, May 25th, 2002" [ref=e320] [cursor=pointer]: "25"
+                      - row "Choose Sunday, May 26th, 2002 Choose Monday, May 27th, 2002 Choose Tuesday, May 28th, 2002 Choose Wednesday, May 29th, 2002 Choose Thursday, May 30th, 2002 Choose Friday, May 31st, 2002 Choose Saturday, June 1st, 2002" [ref=e321]:
+                        - gridcell "Choose Sunday, May 26th, 2002" [ref=e322] [cursor=pointer]: "26"
+                        - gridcell "Choose Monday, May 27th, 2002" [ref=e323] [cursor=pointer]: "27"
+                        - gridcell "Choose Tuesday, May 28th, 2002" [ref=e324] [cursor=pointer]: "28"
+                        - gridcell "Choose Wednesday, May 29th, 2002" [ref=e325] [cursor=pointer]: "29"
+                        - gridcell "Choose Thursday, May 30th, 2002" [ref=e326] [cursor=pointer]: "30"
+                        - gridcell "Choose Friday, May 31st, 2002" [ref=e327] [cursor=pointer]: "31"
+                        - gridcell "Choose Saturday, June 1st, 2002" [ref=e328] [cursor=pointer]: "1"
+                      - row "Choose Sunday, June 2nd, 2002 Choose Monday, June 3rd, 2002 Choose Tuesday, June 4th, 2002 Choose Wednesday, June 5th, 2002 Choose Thursday, June 6th, 2002 Choose Friday, June 7th, 2002 Choose Saturday, June 8th, 2002" [ref=e329]:
+                        - gridcell "Choose Sunday, June 2nd, 2002" [ref=e330] [cursor=pointer]: "2"
+                        - gridcell "Choose Monday, June 3rd, 2002" [ref=e331] [cursor=pointer]: "3"
+                        - gridcell "Choose Tuesday, June 4th, 2002" [ref=e332] [cursor=pointer]: "4"
+                        - gridcell "Choose Wednesday, June 5th, 2002" [ref=e333] [cursor=pointer]: "5"
+                        - gridcell "Choose Thursday, June 6th, 2002" [ref=e334] [cursor=pointer]: "6"
+                        - gridcell "Choose Friday, June 7th, 2002" [ref=e335] [cursor=pointer]: "7"
+                        - gridcell "Choose Saturday, June 8th, 2002" [ref=e336] [cursor=pointer]: "8"
+              - img
+        - generic [ref=e133]:
+          - generic [ref=e135]: Subjects
+          - generic [ref=e137]:
+            - log [ref=e139]
+            - combobox [ref=e143]
+        - generic [ref=e146]:
+          - generic [ref=e148]: Hobbies
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - checkbox "Sports" [ref=e151]
+              - generic [ref=e152]: Sports
+            - generic [ref=e153]:
+              - checkbox "Reading" [ref=e154]
+              - generic [ref=e155]: Reading
+            - generic [ref=e156]:
+              - checkbox "Music" [ref=e157]
+              - generic [ref=e158]: Music
+        - generic [ref=e159]:
+          - generic [ref=e161]: Picture
+          - button "Choose File" [ref=e163] [cursor=pointer]
+        - generic [ref=e164]:
+          - generic [ref=e166]: Current Address
+          - textbox "Current Address" [ref=e168]
+        - generic [ref=e169]:
+          - generic [ref=e171]: State and City
+          - generic [ref=e173]:
+            - log [ref=e175]
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178]: Select State
+                - combobox [ref=e180]
+              - img [ref=e184]
+          - generic [ref=e186]:
+            - generic:
+              - log
+              - generic:
+                - generic:
+                  - generic: Select City
+                - generic:
+                  - generic:
+                    - img
+        - button "Submit" [ref=e189] [cursor=pointer]
+  - contentinfo [ref=e196]:
+    - generic [ref=e197]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
